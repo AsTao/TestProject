@@ -1,0 +1,6 @@
+framework module ZLPhotoBrowserDTCustom {
+  umbrella header "ZLPhotoBrowserDTCustom-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module SKPhotoBrowserDTCustom {
+  umbrella header "SKPhotoBrowserDTCustom-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,36 @@
+
+
+use_frameworks!
+platform :ios, '10.0'
+inhibit_all_warnings!
+
+source 'https://github.com/CocoaPods/Specs.git'
+
+flutter_application_path = '../flutter_module'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+
+
+target 'App' do
+
+  install_all_flutter_pods(flutter_application_path)
+
+  pod 'SKPhotoBrowserDTCustom'
+  pod 'ZLPhotoBrowserDTCustom'
+  pod 'JXPagingView/Paging'
+
+  pod 'dsBridge'
+  
+  pod 'QCloudCOSXML/Transfer'
+  pod 'WechatOpenSDK'
+  pod 'TPNS-iOS'
+  pod 'TencentOpenAPI-Mirror'
+
+      
+end
+
+
+
+
+
+
